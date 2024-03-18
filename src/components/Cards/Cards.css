@@ -1,0 +1,42 @@
+/* Styles for individual card */
+.home-header{
+    padding-left: 1rem;
+}
+
+.card {
+    width: 200px; /* Adjust the width as needed */
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+    position: relative; /* Position relative for containing absolute elements */
+}
+
+/* Styles for card image container */
+.card-image-container {
+    position: relative; /* Position relative for containing absolute elements */
+}
+
+/* Styles for card image */
+.card-image {
+    width: 100%;
+    height: auto;
+}
+
+/* Styles for favorite button */
+.favorite-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    position: absolute;
+    top: 10px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+}
+
+/* Flex container for cards flexed sideways */
+.cards-horizontal {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping to new lines if needed */
+  }
+  

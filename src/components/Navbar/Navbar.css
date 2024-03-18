@@ -1,0 +1,46 @@
+.navbar {
+    position: fixed; /* If we want the navbar to stick to the top whilst scrolling. */
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f6f6f6;
+    color: #000000;
+    padding: 10px 20px;
+    z-index: 1000; 
+  }
+  
+  .navbar-logo img {
+    width: 150px; 
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .navbar-links li {
+    margin-left: 20px;
+  }
+  
+  .navbar-links li:hover {
+    transform: scale(1.04);
+    transition: .2s;
+  }
+
+  .navbar-links li:last-child {
+    margin-right: 100px;
+  }
+  
+  .navbar-links a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: 400;
+  }
+  
+  .navbar-links a:hover {
+    text-decoration: underline;
+  }
+  
